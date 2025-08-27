@@ -1,2 +1,8 @@
-* linguist-vendored
-*.js linguist-vendored=false
+    # Exclude a specific directory
+    vendor/ linguist-vendored
+
+    # Exclude a specific file extension
+    *.min.js linguist-generated
+
+    # Exclude a specific file
+    Gemfile.lock linguist-vendored
